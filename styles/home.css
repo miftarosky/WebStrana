@@ -1,0 +1,341 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #010c15;
+}
+/*Home Page*/
+#color {
+  color: #fea55f;
+}
+header {
+  margin-top: 30px;
+  margin-left: 69px;
+  margin-right: 69px;
+  border: 1px solid #607b96;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.logo {
+  display: inline-block;
+  margin-left: 22px;
+  font-family: "Fira Code", monospace;
+  height: 21px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #607b96;
+  padding-right: 154px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  border-right: 2px solid #1e2d3d;
+}
+.nav-links {
+  display: inline-block;
+}
+.nav-links .links {
+  font-family: "Fira Code", monospace;
+  font-weight: 450;
+  font-size: 16px;
+  line-height: 21px;
+  padding: 17px 31px;
+  color: #607b96;
+  text-decoration: none;
+  border-right: 2px solid #1e2d3d;
+  transition: 0.5s;
+}
+.nav-links .links:hover {
+  color: #fea55f;
+}
+.nav-links .contact {
+  font-family: "Fira Code", monospace;
+  font-weight: 450;
+  font-size: 16px;
+  line-height: 21px;
+  color: #607b96;
+  text-decoration: none;
+  margin-left: 820px;
+  border-left: 2px solid #1e2d3d;
+  padding: 17px 0 17px 31px;
+  transition: 0.5s;
+}
+.nav-links .contact:hover {
+  color: #fea55f;
+}
+main {
+  margin-left: 69px;
+  margin-right: 69px;
+  border: 1px solid #607b96;
+}
+.txt {
+  display: inline-block;
+  margin-top: 240px;
+  margin-left: 250px;
+  font-family: "Fira Code", monospace;
+  font-weight: 450;
+  font-size: 18px;
+  line-height: 24px;
+  color: #e5e9f0;
+}
+.name {
+  font-family: "Fira Code", monospace;
+  font-weight: 400;
+  font-size: 62px;
+  margin-left: 250px;
+  line-height: 82px;
+  color: #e5e9f0;
+}
+.txt2 {
+  font-family: "Fira Code", monospace;
+  font-weight: 450;
+  font-size: 32px;
+  line-height: 42px;
+  margin-left: 250px;
+  color: #4d5bce;
+  margin-bottom: 427px;
+}
+.bck-blur {
+  position: absolute;
+  width: 700px;
+  height: 700px;
+  left: 1050px;
+  top: 150px;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0)
+  );
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 23px 0 rgba(0, 0, 0, 0.37);
+}
+footer {
+  color: #ffffff;
+  border: 1px solid #607b96;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  margin-left: 69px;
+  margin-right: 69px;
+}
+.footer-txt {
+  padding: 15px 18px 15px 22px;
+  display: inline-block;
+  font-family: "Fira Code", monospace;
+  font-weight: 450;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 21px;
+  color: #607b96;
+  border-right: 2px solid #1e2d3d;
+}
+.fb-socail {
+  position: absolute;
+  left: 231px;
+  top: 919px;
+}
+.insta-social {
+  position: absolute;
+  left: 281px;
+  top: 919px;
+}
+.git-social {
+  position: absolute;
+  left: 1806px;
+  top: 919px;
+}
+.line {
+  display: inline-block;
+  border-right: 2px solid #1e2d3d;
+  line-height: 21px;
+  padding: 15px 18px 15px 22px;
+}
+.gituser {
+  font-family: "Fira Code", monospace;
+  font-weight: 450;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 21px;
+  color: #607b96;
+  padding: 15px 18px 15px 22px;
+  border-left: 2px solid #1e2d3d;
+  display: inline-block;
+  margin-left: 1360px;
+}
+
+/*About Me*/
+/*Projects*/
+/*Contact*/
+.windows {
+  border: 1px solid black;
+}
+.arrow {
+  margin: 12px 12px 5px 22px;
+  display: inline-block;
+}
+.contactstxt {
+  font-family: "Fira Code", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 21px;
+  position: absolute;
+  display: inline-block;
+  color: white;
+  top: 92px;
+  left: 120px;
+  border-right: 2px solid #1e2d3d;
+  padding: 10px 212px 10px 0px;
+}
+.contactstxt2 {
+  font-family: "Fira Code", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 21px;
+  position: absolute;
+  display: inline-block;
+  color: white;
+  top: 92px;
+  left: 430px;
+  border-right: 2px solid #1e2d3d;
+  padding: 10px 75px 10px 0px;
+}
+.closeLine {
+  position: absolute;
+  top: 103px;
+  left: 550px;
+}
+.column1 {
+  background-color: #010c15;
+  float: left;
+  width: 339px;
+  border: 1px solid #607b96;
+  height: 770px;
+}
+.column2 {
+  color: white;
+  background-color: gray;
+  float: left;
+  width: 630px;
+  border: 1px solid #607b96;
+  background-color: #010c15;
+  height: 770px;
+}
+.column3 {
+  border: 1px solid #607b96;
+  background-color: #010c15;
+  float: left;
+  width: 780px;
+  height: 770px;
+}
+.emailC {
+  display: block;
+  font-family: "Fira Code", monospace;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #607b96;
+  margin: 17px 0px 9px 46.5px;
+  text-decoration: none;
+}
+.pnumber {
+  margin-bottom: 36.5px;
+}
+.slinks {
+  display: block;
+  font-family: "Fira Code", monospace;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #607b96;
+  text-decoration: none;
+  border: 1px solid #1e2d3d;
+  padding: 9px 0px 9px 46.5px;
+}
+.nameL {
+  margin: 115px 447px 10px 127px;
+  color: #607b96;
+  font-family: "Fira Code", monospace;
+  font-style: normal;
+  font-weight: 400;
+
+  line-height: 21px;
+}
+.emailL {
+  margin: 24px 447px 10px 127px;
+  color: #607b96;
+  font-family: "Fira Code", monospace;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+}
+.messageL {
+  margin: 24px 447px 10px 127px;
+  color: #607b96;
+  font-family: "Fira Code", monospace;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+}
+#Finput {
+  font-family: "Fira Code", monospace;
+  padding: 1px 0 0 15px;
+  font-size: 16px;
+  color: #465e77;
+  margin-left: 128px;
+  width: 372px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  background-color: #1e2d3d;
+}
+#Finput:focus {
+  outline: none !important;
+}
+#Sinput {
+  font-family: "Fira Code", monospace;
+  padding: 1px 0 0 15px;
+  font-size: 16px;
+  color: #465e77;
+  margin-left: 128px;
+  width: 372px;
+  height: 145px;
+  border-radius: 10px;
+  border: none;
+  background-color: #1e2d3d;
+}
+#Sinput:focus {
+  outline: none !important;
+}
+#submit {
+  width: 146px;
+  height: 38px;
+  border-radius: 8px;
+  border: none;
+  padding: 10px, 14px, 10px, 14px;
+  background-color: #1c2b3a;
+  color: white;
+  margin: 15px 0 0 128px;
+  transition: 0.5s;
+}
+#submit:hover {
+  background-color: #31465c;
+}
+.card {
+  font-family: "Fira Code", monospace;
+  width: 560px;
+  height: 182px;
+  border-radius: 12px;
+  margin-left: auto;
+  margin-top: 180px;
+  color: white;
+  font-size: 14px;
+  padding: 25px 0px 0px 30px;
+}
